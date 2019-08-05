@@ -23,11 +23,14 @@ class MyWork extends Component {
       <>
         <div id='menuBar'>
           <h1 className='title'>My Work</h1>
-          <div id='rightMenu'>
+          <div id='navContainer'>
             <MenuItem to={`/`} className='menuItems'>Home</MenuItem>
             <br />
             <MenuItem to={`/about-me`} className='menuItems'>About Me</MenuItem>
           </div>
+        </div>
+        <div id='myworkPage'>
+
         </div>
       </>
     )
