@@ -22,7 +22,7 @@
 
 /* ---- About Me Page ---- */
 #aboutmePage {
-  height: 100%;
+  height: 1000px;
   background-color: #c7bebc;
   text-align: center;
 }
@@ -41,9 +41,9 @@
   border-color: black;
 }
 
-#textContainer {
+#whiteContainer {
   background-color: white;
-  height: 600px;
+  height: 625px;
   width: 85%;
   margin: 0 auto;
   z-index: 1;
@@ -51,10 +51,17 @@
   top: -5.25em;
 }
 
+#textContainer {
+  display: inline-block;
+  width: 95%;
+  height: 95%;
+}
+
 #aboutmeText {
+  display: inline-block;
   text-align: left;
-  left: 1.7em;
-  max-width: 900px;
+  max-width: 100%;
+  max-height: 100%;
   font-size: 24px;
   position: relative;
   top: 4.25em;
@@ -107,7 +114,7 @@
 
   /* ---- About Me Page ---- */
   #aboutmePage {
-    height: 100%;
+    height: 1000px;
     background-color: #c7bebc;
   }
 
@@ -123,14 +130,13 @@
     border-color: black;
   }
 
-  #textContainer {
+  #whiteContainer {
     top: -4em;
-    height: 585px;
+    height: 630px;
   }
 
   #aboutmeText {
-    left: 1.4em;
-    max-width: 600px;
+    max-width: 100%;
     font-size: 20px;
     position: relative;
     top: 4em;
@@ -184,7 +190,7 @@
 
   /* ---- About Me Page ---- */
   #aboutmePage {
-    height: 100%;
+    height: 1000px;
     background-color: #c7bebc;
   }
 
@@ -200,14 +206,13 @@
     border-color: black;
   }
 
-  #textContainer {
+  #whiteContainer {
     top: -3.25em;
-    height: 675px;
+    height: 600px;
   }
 
   #aboutmeText {
-    left: 0.9em;
-    max-width: 330px;
+    max-width: 100%;
     font-size: 17px;
     position: relative;
     top: 3.5em;
