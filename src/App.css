@@ -21,7 +21,6 @@
 
 #footerNavContainer {
   padding: 15px 0.8em 0 0;
-  height: 40px;
   float: right;
 }
 /* ---- Home Page ---- */
@@ -53,8 +52,11 @@
 }
 
 #whiteContainer {
+  display: block;
+  overflow: auto;
   background-color: white;
-  height: 700px;
+  height: 100%;
+  min-height: inherit;
   width: 85%;
   margin: 0 auto;
   z-index: 1;
@@ -123,6 +125,11 @@
   #footerBar {
     height: 47px;
   }
+
+  #footerNavContainer {
+    padding: 12px 0.8em 0 0;
+  }
+
   /* ---- Home Page ---- */
   #homePage {
     height: 1000px;
@@ -206,6 +213,11 @@
   #footerBar {
     height: 45px;
   }
+
+  #footerNavContainer {
+    padding: 11px 0.8em 0 0;
+  }
+
   /* ---- Home Page ---- */
   #homePage {
     height: 1000px;
