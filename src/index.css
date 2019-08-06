@@ -54,8 +54,8 @@
 #aboutmeText {
   text-align: left;
   left: 1.7em;
-  max-width: 44em;
-  font-size: 1.5em;
+  max-width: 900px;
+  font-size: 24px;
   position: relative;
   top: 4.25em;
 }
@@ -125,12 +125,13 @@
 
   #textContainer {
     top: -4em;
+    height: 585px;
   }
 
   #aboutmeText {
     left: 1.4em;
-    max-width: 33.5em;
-    font-size: 1.3em;
+    max-width: 600px;
+    font-size: 20px;
     position: relative;
     top: 4em;
   }
@@ -201,12 +202,13 @@
 
   #textContainer {
     top: -3.25em;
+    height: 675px;
   }
 
   #aboutmeText {
     left: 0.9em;
-    max-width: 22em;
-    font-size: 1.1em;
+    max-width: 330px;
+    font-size: 17px;
     position: relative;
     top: 3.5em;
   }
