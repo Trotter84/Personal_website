@@ -20,9 +20,8 @@
 }
 
 #footerNavContainer {
-  padding-top: 15px;
+  padding: 15px 0.8em 0 0;
   height: 40px;
-  width: 375px;
   float: right;
 }
 /* ---- Home Page ---- */
@@ -99,7 +98,7 @@
 
 .footerItems {
   color: white;
-  font-size: 25px;
+  font-size: 1.375em;
   padding-right: 0.8em;
 }
 /* ====================================== */
@@ -179,8 +178,12 @@
     font-size: 1.7em;
     padding: 0 0.5em 0 0;
   }
-}
 
+  .footerItems {
+    font-size: 1.15em;
+    padding-right: 0.8em;
+  }
+}
 /* ====================================== */
 
 
@@ -257,6 +260,11 @@
   .menuItems {
     font-size: 1.5em;
     padding: 0 0.3em 0 0;
+  }
+
+  .footerItems {
+    font-size: 0.95em;
+    padding-right: 0.8em;
   }
 }
 /* ====================================== */
