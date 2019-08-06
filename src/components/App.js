@@ -7,10 +7,12 @@ import {
 } from 'react-router-dom';
 import { ScrollManager, WindowScroller } from 'react-scroll-manager';
 import { createBrowserHistory as createHistory } from 'history';
+import '../App.css';
+
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import MyWork from './pages/MyWork';
-import '../App.css';
+import Footer from './Footer';
 
 
 class App extends Component {
@@ -36,6 +38,7 @@ class App extends Component {
                 <Route path='/my-work' component={MyWork} />
                 <Redirect to='/' />
               </Switch>
+              <Footer />
             </div>
           </WindowScroller>
         </Router>
