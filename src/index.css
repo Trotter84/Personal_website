@@ -43,7 +43,7 @@
 
 #whiteContainer {
   background-color: white;
-  height: 625px;
+  height: 700px;
   width: 85%;
   margin: 0 auto;
   z-index: 1;
@@ -132,7 +132,7 @@
 
   #whiteContainer {
     top: -4em;
-    height: 630px;
+    height: 700px;
   }
 
   #aboutmeText {
@@ -208,7 +208,7 @@
 
   #whiteContainer {
     top: -3.25em;
-    height: 600px;
+    height: 700px;
   }
 
   #aboutmeText {
