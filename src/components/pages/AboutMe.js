@@ -13,6 +13,15 @@ const MenuItem = Styled(Link)`
   }
 `
 
+const MyWorkLink = Styled(Link)`
+  color: #5bbae6;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  :hover {
+    color: #595858;
+  }
+`
+
 
 class AboutMe extends Component {
 
@@ -33,12 +42,12 @@ class AboutMe extends Component {
         </div>
         <div id='aboutmePage'>
           <div id='photoContainer'>
-            <img src={ProfileShot} id='profileShotImage' />
+            <img src={ProfileShot} id='profileShotImage' alt="Daniel Trotter, page owner" />
           </div>
           <div id='whiteContainer'>
             <div id='textContainer'>
               <p id='aboutmeText'>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a freelance Full Stack web developer passionate about using programming to solve problems and deliver quality products. I have done a few projects for client, which can be checked out in <MenuItem to={`/my-work`}>My Work</MenuItem>. When I&apos;m not working on a project, I enjoy writing music, playing video games, and skateboarding.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a freelance Full Stack web developer passionate about using programming to solve problems and deliver quality products. I have done a few projects for client, which can be checked out in <MyWorkLink to={`/my-work`}>My Work</MyWorkLink>. When I&apos;m not working on a project, I enjoy writing music, playing video games, and skateboarding.
                 <br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently, I work with mainly React, React Native, JavaScript, HTML/CSS, and Semantic-UI on the front end and with Ruby on Rails and Node.JS for the backend, with experience with Postres.
               </p>
             </div>

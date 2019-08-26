@@ -86,8 +86,9 @@
 
 /* ---- My Work Page ---- */
 #myworkPage {
-  height: 1000px;
+  height: 650px;
   background-color: #c7bebc;
+  text-align: center;
 }
 /* ------------------- */
 .title {

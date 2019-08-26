@@ -70,6 +70,7 @@ class MyWork extends Component {
           </div>
         </div>
         <div id='myworkPage'>
+          <h1>My Work</h1>
           <Container style={styles.container} >
             <Card.Group style={styles.card} >
               {this.getRepos()}
