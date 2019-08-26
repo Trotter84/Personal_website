@@ -33,8 +33,8 @@ class MyWork extends Component {
       method: 'get',
       url: 'https://api.github.com/users/Trotter84/repos',
       headers: '*'
-
     })
+    
     .then(res => {
         this.setState({ repos: res.data })
       })

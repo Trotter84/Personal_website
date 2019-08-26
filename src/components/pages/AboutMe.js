@@ -47,8 +47,8 @@ class AboutMe extends Component {
           <div id='whiteContainer'>
             <div id='textContainer'>
               <p id='aboutmeText'>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a freelance Full Stack web developer passionate about using programming to solve problems and deliver quality products. I have done a few projects for client, which can be checked out in <MyWorkLink to={`/my-work`}>My Work</MyWorkLink>. When I&apos;m not working on a project, I enjoy writing music, playing video games, and skateboarding.
-                <br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently, I work with mainly React, React Native, JavaScript, HTML/CSS, and Semantic-UI on the front end and with Ruby on Rails and Node.JS for the backend, with experience with Postres.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a freelance Full Stack web developer passionate about using programming to solve problems and deliver quality products. I have done a few projects for clients, which can be checked out in <MyWorkLink to={`/my-work`}>My Work</MyWorkLink>. When I&apos;m not working on a project, I enjoy writing music, playing video games, and skateboarding.
+                <br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently, I work mainly with React, React Native, JavaScript, HTML/CSS, and Semantic-UI on the front end and with Ruby on Rails and Node.JS for the backend, with experience with Postgres.
               </p>
             </div>
           </div>
