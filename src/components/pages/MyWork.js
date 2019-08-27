@@ -34,8 +34,9 @@ class MyWork extends Component {
       url: 'https://api.github.com/users/Trotter84/repos',
       headers: '*'
     })
-    
+
     .then(res => {
+      console.log(res.data)
         this.setState({ repos: res.data })
       })
   }
@@ -58,6 +59,8 @@ class MyWork extends Component {
     )
   }
 
+
+
   render() {
     return(
       <>
@@ -70,12 +73,14 @@ class MyWork extends Component {
           </div>
         </div>
         <div id='myworkPage'>
-          <h1>My Work</h1>
-          <Container style={styles.container} >
-            <Card.Group style={styles.card} >
-              {this.getRepos()}
-            </Card.Group>
-          </Container>
+          <div id='myworkWhiteContainer'>
+            <h1>My Work</h1>
+            <Container style={styles.container} >
+              <Card.Group style={styles.card}>
+                {this.getRepos()}
+              </Card.Group>
+            </Container>
+          </div>
         </div>
       </>
     )

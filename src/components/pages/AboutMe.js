@@ -44,7 +44,7 @@ class AboutMe extends Component {
           <div id='photoContainer'>
             <img src={ProfileShot} id='profileShotImage' alt="Daniel Trotter, page owner" />
           </div>
-          <div id='whiteContainer'>
+          <div id='aboutmeWhiteContainer'>
             <div id='textContainer'>
               <p id='aboutmeText'>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a freelance Full Stack web developer passionate about using programming to solve problems and deliver quality products. I have done a few projects for clients, which can be checked out in <MyWorkLink to={`/my-work`}>My Work</MyWorkLink>. When I&apos;m not working on a project, I enjoy writing music, playing video games, and skateboarding.
