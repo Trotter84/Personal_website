@@ -29,19 +29,24 @@ class MyWork extends Component {
   state = { repos: [] }
 
   componentDidMount() {
+
     axios({
-      method: 'get',
+      method: 'GET',
       url: 'https://api.github.com/users/Trotter84/repos',
-      headers: '*'
+
     })
 
     .then(res => {
-      console.log(res.data)
-        this.setState({ repos: res.data })
-      })
+      this.setState({ repos: res.data })
+    })
+    .catch(err => {
+      console.error("Error fetching MyWork data: ", err)
+    })
   }
 
   getRepos = () => {
+
+
     const { repos } = this.state
     return (
       repos.map((repo, id) => {
