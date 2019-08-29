@@ -40,6 +40,7 @@ class AboutMe extends Component {
             <MenuItem to={`my-work`} className='menuItems'>My Work</MenuItem>
           </div>
         </div>
+        
         <div id='aboutmePage'>
           <div id='photoContainer'>
             <img src={ProfileShot} id='profileShotImage' alt="Daniel Trotter, page owner" />
