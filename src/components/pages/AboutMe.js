@@ -9,16 +9,16 @@ const MenuItem = Styled(Link)`
   cursor: pointer;
   transition: all 200ms ease-in-out;
   :hover {
-    color: #ffaa32;
+    color: #CE8351;
   }
 `
 
 const MyWorkLink = Styled(Link)`
-  color: #5bbae6;
+  color: #595858;
   cursor: pointer;
   transition: all 200ms ease-in-out;
   :hover {
-    color: #595858;
+    color: #9BAAC9;
   }
 `
 
@@ -40,7 +40,7 @@ class AboutMe extends Component {
             <MenuItem to={`my-work`} className='menuItems'>My Work</MenuItem>
           </div>
         </div>
-        
+
         <div id='aboutmePage'>
           <div id='photoContainer'>
             <img src={ProfileShot} id='profileShotImage' alt="Daniel Trotter, page owner" />

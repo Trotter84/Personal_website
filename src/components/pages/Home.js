@@ -7,7 +7,7 @@ const MenuItem = Styled(Link)`
   cursor: pointer;
   transition: all 200ms ease-in-out;
   :hover {
-    color: #ffaa32;
+    color: #CE8351;
   }
 `
 

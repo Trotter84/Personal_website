@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 import { ScrollManager, WindowScroller } from 'react-scroll-manager';
 import { createBrowserHistory as createHistory } from 'history';
-import '../App.css';
+import './App.css';
 
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';

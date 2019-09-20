@@ -1,9 +1,12 @@
+
+
+
 /* ========== Desktop Version ========== */
 #menuBar {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  background-color: #5bbae6;
+  background-color: #9BAAC9;
   height: 85px;
   box-shadow: 5px 10px 8px #888888;
 }
@@ -26,8 +29,9 @@
 }
 /* ---- Home Page ---- */
 #homePage {
-  height: 1000px;
-  background-color: #c7bebc;
+  background-image: url(../images/fruita_shot.jpg);
+  background-size: cover;
+  height: 655px;
 }
 /* ------------------- */
 
@@ -95,7 +99,7 @@
 #myworkWhiteContainer {
   display: block;
   overflow: auto;
-  background-color: #5BBAE6;
+  background-color: #9BAAC9;
   box-shadow: 5px 10px 8px #888888;
   height: 100%;
   max-height: 500px;
