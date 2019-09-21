@@ -7,6 +7,9 @@ import {
   Card,
 } from 'semantic-ui-react'
 
+import topProjects from '../TopProjectsArrays.js';
+
+
 const MenuItem = Styled(Link)`
   cursor: pointer;
   transition: all 200ms ease-in-out;
@@ -77,8 +80,24 @@ class MyWork extends Component {
             <MenuItem to={`/about-me`} className='menuItems'>About Me</MenuItem>
           </div>
         </div>
-        <div id='myworkPage'>
-          <div id='myworkWhiteContainer'>
+
+        <div id='myWorkTopProjectsContainer'>
+          <h2 id='myWorkTitle'>My Top Projects</h2>
+
+          <div id='myWorkEachProjectContainer'>
+            {topProjects.map(project => {
+              return(
+                <div id='myWorkProject'>
+                  <a id='myWorkProjectWebsite' href={project.url} target='_blank'>{project.website}</a>
+                  <a id='myWorkProjectUrl' href={project.url} target='_blank'>{project.url}</a>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+
+        <div id='myWorkPage'>
+          <div id='myWorkGitContainer'>
             <h1>My Work</h1>
             <Container style={styles.container} >
               <Card.Group style={styles.card}>
