@@ -88,8 +88,8 @@ class MyWork extends Component {
             {topProjects.map(project => {
               return(
                 <div id='myWorkProject'>
-                  <a id='myWorkProjectWebsite' href={project.url} target='_blank'>{project.website}</a>
-                  <a id='myWorkProjectUrl' href={project.url} target='_blank'>{project.url}</a>
+                  <a id='myWorkProjectWebsite' href={project.url} target='_blank' rel="noopener noreferrer">{project.website}</a>
+                  <a id='myWorkProjectUrl' href={project.url} target='_blank' rel="noopener noreferrer">{project.url}</a>
                 </div>
               )
             })}
