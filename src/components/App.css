@@ -128,6 +128,15 @@
   padding: 50px;
 }
 
+#myWorkProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 375px;
+  padding: 50px;
+}
+
 #myWorkProjectWebsite {
   color: black;
   cursor: pointer;
@@ -138,16 +147,6 @@
 #myWorkProjectUrl {
   cursor: pointer;
   font-size: 18px;
-}
-
-#myWorkProject {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: white;
-  width: 375px;
-  padding: 50px;
-
 }
 
 #myWorkGitContainer {
